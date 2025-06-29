@@ -25,8 +25,6 @@ This project is a personal web site template. This project is developed by using
 
 - git clone https://www.github.com/UGURAKSAHIN/my-website.git
 
-[Uploading about.html…]()
-
 
 # Usage
 
