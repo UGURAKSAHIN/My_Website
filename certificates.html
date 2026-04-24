@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>U&#287;ur Ak&#351;ahin - Resume</title>
+  <title>Certificates</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
@@ -29,7 +29,7 @@
     }
 
     nav ul li {
-      margin: 0 15px;
+      margin: 4px 12px;
     }
 
     nav ul li a {
@@ -43,58 +43,27 @@
     }
 
     main {
-      margin: 32px auto;
-      max-width: 1100px;
+      margin: 40px auto;
+      max-width: 1000px;
       padding: 0 20px 40px;
-      text-align: center;
     }
 
     h1 {
-      margin-bottom: 18px;
+      margin-bottom: 30px;
       text-align: center;
     }
 
-    .resume-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-
-    .resume-button {
-      background-color: #333;
-      border-radius: 4px;
-      color: #fff;
-      display: inline-block;
-      font-weight: bold;
-      padding: 10px 18px;
-      text-decoration: none;
-    }
-
-    .resume-button:hover {
-      background-color: #555;
-    }
-
-    .pdf-container {
+    .certificate-card {
       background: #fff;
       border: 1px solid #ddd;
+      border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      height: min(80vh, 900px);
-      min-height: 600px;
-      overflow: hidden;
+      margin-bottom: 20px;
+      padding: 24px;
     }
 
-    .pdf-container iframe {
-      border: 0;
-      display: block;
-      height: 100%;
-      width: 100%;
-    }
-
-    .pdf-fallback {
-      margin-top: 16px;
-      text-align: center;
+    .certificate-card h2 {
+      margin-top: 0;
     }
 
     footer {
@@ -108,22 +77,6 @@
     footer p {
       margin: 0;
       text-align: center;
-    }
-
-    @media (max-width: 700px) {
-      nav ul li {
-        margin: 4px 10px;
-      }
-
-      main {
-        margin-top: 24px;
-        padding: 0 12px 32px;
-      }
-
-      .pdf-container {
-        height: 70vh;
-        min-height: 500px;
-      }
     }
   </style>
 </head>
@@ -144,19 +97,22 @@
   </header>
 
   <main>
-    <h1>Resume</h1>
-    <div class="resume-actions">
-      <a class="resume-button" href="files/UGUR_AKSAHIN_RESUME.pdf" target="_blank" rel="noopener">Open PDF</a>
-      <a class="resume-button" href="files/UGUR_AKSAHIN_RESUME.pdf" download>Download PDF</a>
-    </div>
+    <h1>Certificates</h1>
 
-    <section class="pdf-container">
-      <iframe src="files/UGUR_AKSAHIN_RESUME.pdf" title="Ugur Aksahin Resume"></iframe>
+    <section class="certificate-card">
+      <h2>Software Development Certificates</h2>
+      <p>
+        Add your completed software, web development, database, or programming certificates here.
+      </p>
     </section>
-    <p class="pdf-fallback">
-      If the resume does not load, open it as a
-      <a href="files/UGUR_AKSAHIN_RESUME.pdf" target="_blank" rel="noopener">PDF file</a>.
-    </p>
+
+    <section class="certificate-card">
+      <h2>Technical Training</h2>
+      <p>
+        This section can include courses and trainings related to C#, ASP.NET Core, Java,
+        HTML, CSS, JavaScript, APIs, and database management.
+      </p>
+    </section>
   </main>
 
   <footer>
