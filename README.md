@@ -1,65 +1,43 @@
-# My_Website
+# My Website
 
-This project is a personal web site template. This project is developed by using HTML and CSS.
+Personal portfolio website for Ugur Aksahin. The site introduces my background, skills, projects, education, experience, certificates, resume, and contact information.
 
-## Content
+## Pages
 
-- About
-- Index
-- Projects
-- Resume
-- skills
-- What I'm looking for
-- Contact
+- `index.html` - Home page
+- `about.html` - About me
+- `skills.html` - Technical skills
+- `Projects.html` - Project portfolio
+- `education.html` - Education background
+- `experience.html` - Professional experience
+- `certificates.html` - Certificates and technical training
+- `Resume.html` - Resume PDF viewer and download links
+- `contact.html` - Contact information and social links
 
+## Technologies
 
-![Website](https://github.com/user-attachments/assets/63b4f14f-cac5-4cb6-beff-edb3900a580d)
+- HTML
+- CSS
+- JavaScript-ready static structure
 
+## Assets
 
-# Features
+- `images/PI.jpeg` - Profile photo
+- `images/li.png` - LinkedIn icon
+- `images/github.png` - GitHub icon
+- `files/UGUR_AKSAHIN_RESUME.pdf` - Resume PDF
 
-- Responsive Design
-- Easily customizable content
-- Modern user interface
-- Basic form functions
+## How To Run
 
-# Set up
+Open `index.html` directly in a browser, or use the VS Code debug configuration:
 
-1.Clone this repository
+1. Open the project folder in VS Code.
+2. Go to Run and Debug.
+3. Select `Open Home Page` or `Open Projects Page`.
+4. Start debugging.
 
-- git clone https://www.github.com/UGURAKSAHIN/My_Website.git
+## Contact
 
-
-# Usage
-
-- index.html
-
-- about.html
-
-- What I'm Looking For.html
-
-- Skills.html
-
-- projects.html
-
-- Resume.html
-
-- styles.css
-
-- contact.html
-
-# Contribute
-
-We welcome your contributions! Please open an issue or submit a pull request
-
-# Licence
-
-This project is licensed under the MIT license. See the LICENSE file for more information
-
-# Contact
-
-If you have any questions, you can reach me:
-
-Email: uguraksahin1903@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/uguraksahin
+- Email: uguraksahin1903@gmail.com
+- LinkedIn: https://www.linkedin.com/in/uguraksahin
+- GitHub: https://github.com/UGURAKSAHIN
